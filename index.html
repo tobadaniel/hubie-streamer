@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hubie Live 24/7 — Housebets stream</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--
+  HUBIE STREAM SCENE — capture THIS page in OBS (Browser Source) or ffmpeg.
+  Demo play only. No real money, no login, no keys, nothing to configure here.
+  Setup step (allowed, before going live): open the page, click "Enable voice"
+  once so the browser permits speech, then start the stream and do not touch it.
+-->
+<div class="scene" id="scene">
+  <header class="topbar">
+    <div class="logo">HOUSE<b>BETS</b></div>
+    <div class="live">● LIVE</div>
+    <div class="pill">Hubie — your rewards host, live 24/7</div>
+    <div class="spacer"></div>
+    <div class="pill">Uptime <strong id="uptime">00:00:00</strong></div>
+    <div class="pill"><span class="mint" id="balance">100,000</span></div>
+    <div class="pill">Reloads <strong id="reloads">0</strong> · Bought in <span id="boughtIn">100,000</span></div>
+    <div class="pill">Round <strong id="roundNo">0</strong></div>
+    <button class="voice" id="voiceBtn" type="button">Enable voice (setup)</button>
+  </header>
+
+  <div class="main">
+    <section class="stage">
+      <h2 id="gameTitle">House Originals — <span>Dice</span></h2>
+      <div class="sub" id="gameSub">Hubie plays House originals. Every round commentated, nobody at the controls.</div>
+      <div class="stage-body" id="stageBody"></div>
+      <div class="result-banner" id="resultBanner">Warming up the floor…</div>
+    </section>
+
+    <div class="rightcol">
+      <section class="hubie-card">
+        <!-- HUBIE — full-body mascot (2026-11-07): the standing Hubie (sloth,
+             top hat with H buckle, orange vest, green bow tie) from the image
+             Oluwatoba provided, cut out locally to a transparent PNG
+             (assets/hubie-fullbody.png; source kept as
+             assets/hubie-fullbody-source.jpg — see assets/README.md).
+             The earlier cropped-head avatar (assets/hubie-official.png) is
+             retired to reference. Animation: state classes on #hubieSvg
+             (idle / talking / excited / down / blink) drive the body, and
+             reaction classes on #hubieFigure (react-win / react-bigwin /
+             react-nearmiss) are fired by js/scene.js from round results.
+             All motion is transform-based — the layout never shifts. -->
+        <div class="hubie-wrap">
+          <div class="hubie hubie--idle" id="hubieSvg" role="img" aria-label="Hubie, the Housebets rewards host">
+            <div class="hubie-body">
+              <img class="hubie-figure" id="hubieFigure" src="assets/hubie-fullbody.png" alt="Hubie — the Housebets sloth rewards host, full body">
+            </div>
+          </div>
+        </div>
+        <div class="hubie-name">HUBIE</div>
+        <div class="hubie-role">AI streamer · House originals · live 24/7</div>
+      </section>
+
+      <section class="chat">
+        <h3 id="chatTitle">CHAT — Hubie reads and answers by name</h3>
+        <div class="chat-feed" id="chatFeed"></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="subtitle">
+    <div class="who">HUBIE</div>
+    <div class="line" id="subtitle">Welcome to the House floor…</div>
+  </div>
+
+  <footer class="safety" aria-label="18+ Gamble responsibly. Demo play, no real money. Hubie never promises wins and never pushes deposits.">
+    <div class="safety-track">
+      <span class="safety-line">18+ GAMBLE RESPONSIBLY — DEMO PLAY, NO REAL MONEY — HUBIE NEVER PROMISES WINS AND NEVER PUSHES DEPOSITS —&nbsp;</span>
+      <span class="safety-line" aria-hidden="true">18+ GAMBLE RESPONSIBLY — DEMO PLAY, NO REAL MONEY — HUBIE NEVER PROMISES WINS AND NEVER PUSHES DEPOSITS —&nbsp;</span>
+    </div>
+  </footer>
+</div>
+
+<script src="js/games.js"></script>
+<script src="js/commentary.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/speech-director.js"></script>
+<script src="js/scene.js"></script>
+</body>
+</html>

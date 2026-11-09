@@ -1,0 +1,57 @@
+{
+  "recordingSec": 330,
+  "service": {
+    "spoken": 97,
+    "dropped": 0,
+    "droppedStale": 0,
+    "droppedOverflow": 0,
+    "clipsPlayed": 97,
+    "clipFallbacks": 0,
+    "maxPostToAudioLagSec": 0.1,
+    "linesReceived": 97
+  },
+  "scene": {
+    "coupled": true,
+    "intentsSubmitted": 199,
+    "linesGenerated": 97,
+    "displayed": 97,
+    "intentsReplaced": 63,
+    "intentsDropped": 39,
+    "intentsExpired": 0,
+    "serviceDropped": 0
+  },
+  "setEquality": {
+    "startedCount": 97,
+    "displayedCount": 97,
+    "onlyStarted": [],
+    "onlyDisplayed": [],
+    "textMismatches": [],
+    "exact": true
+  },
+  "journal": {
+    "started": 97,
+    "ended": 96,
+    "dropped": 0
+  },
+  "resultLagIntentToSpeech": {
+    "n": 120,
+    "medianMs": 1563,
+    "p90Ms": 4503,
+    "maxMs": 6484
+  },
+  "inWindowLines": 91,
+  "samplesWritten": 12,
+  "frameCheck": {
+    "speechMean": 0.04016025641025641,
+    "gapMean": null,
+    "speechFrames": [
+      0.0422,
+      0.0069,
+      0.0451,
+      0.0756,
+      0.0376,
+      0.0335
+    ],
+    "gapFrames": []
+  }
+}

@@ -1,0 +1,27 @@
+<!-- PLACEHOLDER Hubie character — original art drawn for this repo in Housebets
+     colours ONLY so the stream scene can run before the official art lands.
+     This is NOT official Housebets art and must not be described as such.
+     Replace this file with the official Hubie art from hubie-art-pack.zip
+     (see assets/README.md) before any public stream or submission. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" role="img" aria-label="Hubie placeholder character">
+  <!-- house-roof hat -->
+  <path d="M60 78 L150 18 L240 78 L224 78 L150 34 L76 78 Z" fill="#22d3ee"/>
+  <!-- head -->
+  <rect x="62" y="76" width="176" height="150" rx="42" fill="#0c2129" stroke="#22d3ee" stroke-width="5"/>
+  <!-- ears / side pods -->
+  <rect x="44" y="126" width="20" height="52" rx="10" fill="#14b8a6"/>
+  <rect x="236" y="126" width="20" height="52" rx="10" fill="#14b8a6"/>
+  <!-- eyes -->
+  <g class="hubie-eyes">
+    <circle cx="112" cy="138" r="15" fill="#5eead4"/>
+    <circle cx="188" cy="138" r="15" fill="#5eead4"/>
+    <circle cx="117" cy="133" r="5" fill="#04202a"/>
+    <circle cx="193" cy="133" r="5" fill="#04202a"/>
+  </g>
+  <!-- mouth (scene swaps this shape per state via inline copy) -->
+  <rect x="118" y="182" width="64" height="12" rx="6" fill="#e6fffb"/>
+  <!-- body -->
+  <path d="M92 226 h116 l14 74 a10 10 0 0 1 -10 12 H88 a10 10 0 0 1 -10 -12 Z" fill="#11303a" stroke="#14b8a6" stroke-width="4"/>
+  <!-- house emblem on chest -->
+  <path d="M128 268 L150 248 L172 268 L165 268 L165 286 L135 286 L135 268 Z" fill="#22d3ee"/>
+</svg>

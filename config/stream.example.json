@@ -1,0 +1,28 @@
+{
+  "_comment": "PUBLIC channel facts only. The stream KEY is never stored here or anywhere in this repo — Oluwatoba enters it directly in OBS on his own machine at go-live, and nowhere else.",
+  "capture": {
+    "fps": 30,
+    "height": 1080,
+    "tool": "OBS Studio (Browser Source) or ffmpeg",
+    "width": 1920
+  },
+  "channel": "t4tiger",
+  "channelUrl": "https://kick.com/t4tiger",
+  "kickChat": {
+    "_comment": "Read-only in v1. Adapter contract is in js/chat.js. Channel slug is public; no token is needed to read public chat, and no credentials may be committed. bridgeUrl (set in stream.local.json) points the scene at the local chat bridge, scripts/chat-service.js — the route that works in the streaming browser; empty = in-browser adapter.",
+    "bridgeUrl": "",
+    "channelSlug": "t4tiger",
+    "enabled": false
+  },
+  "platform": "kick",
+  "rtmp": {
+    "_comment": "Fill in LOCALLY in OBS only, at go-live. Leave blank in the repo.",
+    "server": "",
+    "streamKey": ""
+  },
+  "sceneUrl": "http://127.0.0.1:8377/",
+  "voice": {
+    "_comment": "Local TTS voice bridge (scripts/voice-service.js). Empty = off. Set in stream.local.json to http://127.0.0.1:8379/say when the voice service runs.",
+    "bridgeUrl": ""
+  }
+}

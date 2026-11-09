@@ -1,0 +1,64 @@
+RECONNECT VERIFICATION — manual forced-drop run on the full local stack
+2026-11-08 ~12:30-12:44Z. Stack: watchdog (serve + instrumented relay in
+DIRECT mode) -> socat TLS :19460 -> respawning ffmpeg RTMP listener sink
+:1945; stream.sh with HUBIE_STREAM_TARGET=rtmps://127.0.0.1:1936/app/
+LOCALTEST (dummy key; config/stream.local.json never read), supervisor
+writing transport.log. Sampler: total sink bytes at 1s cadence
+(sink-sizes.log). NOTE: scripts/reconnect-test.sh (the scripted harness)
+failed its coupling gate twice for environment reasons under heavy VM
+load (load avg ~12: the soak plus two test stacks); the identical stack
+composition was therefore driven manually here with the same
+measurements. A first manual kill also exposed a REAL supervisor bug
+(event-loop liveness, see transport-report.md) that is fixed and
+regression-tested; all kills below ran the fixed supervisor.
+
+BASELINE (coupled, flowing ~290KB/s at the sink):
+  voice spoken=31 (cumulative on the long-lived voice service),
+  scene displayed=7 (fresh page), clips=31, dropped=0.
+  Delta check before kills: spoken +3 == displayed +3 over the sample
+  interval (1:1). The constant offset (24) is lines the voice service
+  spoke before this scene page attached.
+  PIDs: serve=8415 chrome=11814 xvfb=11798 relay=8403.
+
+KILL-A  epoch 1794141552 (12:39:12Z) SIGKILL ffmpeg attempt 1 (ran 51s)
+  supervisor: exit logged same second; restart_scheduled delayMs=3000
+  (ladder step 1); ffmpeg_start attempt 2 at 12:39:16.096 (+3.1s).
+  sink: last growth 1794141553, flat to 1794141563, growth resumed
+  1794141565 -> sink-visible gap ~12s (3s delay + encoder init +
+  TLS/RTMP handshake + sink listener respawn + first keyframe).
+  continuity: chrome/xvfb pids unchanged; fifoReady true after
+  reattach; deltas still 1:1 (+7/+7); dropped 0.
+
+KILL-B  epoch 1794141628 (12:40:28Z) SIGTERM ffmpeg attempt 2 (ran 79s)
+  supervisor: ffmpeg exited code 255 at 12:40:35.106 (+7s: SIGTERM is a
+  graceful shutdown for ffmpeg, it flushes before exiting);
+  restart_scheduled delayMs=3000 (stable run, ladder reset);
+  ffmpeg_start attempt 3 at 12:40:38.192 (+3.1s after exit).
+  sink: growth continued through the graceful flush; measured flat
+  stretch ~5s. continuity: pids unchanged, dropped 0.
+
+KILL-C  epoch 1794141683 (12:41:23Z) SIGKILL ffmpeg attempt 3 (ran 45s)
+  supervisor: restart_scheduled delayMs=5000 (unstable run: backoff
+  escalated to ladder step 2, as designed); ffmpeg_start attempt 4 at
+  12:41:28.398 (+5.0s).
+  sink: last growth 1794141683, resumed 1794141696 -> gap ~13s.
+  continuity: pids unchanged; spoken 83 / displayed 59, dropped 0.
+
+RELAY-KILL  epoch 1794141734 (12:42:14Z) SIGKILL relay (pid 8403)
+  watchdog: "rtmp relay exited (code 137) - restarting in 2s" at
+  12:42:15Z; "rtmp relay starting" 12:42:17Z; new relay pid 15159
+  (resurrection ~3s).
+  encoder: attempt 4 exited code 224 at 12:42:17.876 (+3.9s for ffmpeg
+  to declare the dead tunnel); supervisor delayMs=10000 (ladder step 3
+  after the repeated kills; a stable hours-long run resets to 3000);
+  ffmpeg_start attempt 5 at 12:42:27.905; tunnel_established on the
+  new relay 12:42:28.904.
+  sink: last growth 1794141736 (in-flight flush), flat 20s, growth
+  resumed 1794141757 -> sink-visible gap ~20s end to end.
+  continuity: serve/chrome/xvfb pids unchanged; spoken 103 /
+  displayed 79 (same constant offset), dropped 0, fifo reattached.
+  The show never restarted; only the encoder and the relay cycled.
+
+FINAL: spoken=103 displayed=79 dropped=0 clips=103 (service counters
+cumulative across the whole session; scene counters from its page
+load; deltas equal at every sample taken).

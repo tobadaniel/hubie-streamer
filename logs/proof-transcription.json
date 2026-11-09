@@ -1,0 +1,90 @@
+{
+  "samples": 12,
+  "matched": 6,
+  "rows": [
+    {
+      "id": "L3",
+      "line": "size up. one thousand five hundred.",
+      "heard": "1500  2000  200  20  Back!",
+      "ratio": 0.526,
+      "match": false
+    },
+    {
+      "id": "L10",
+      "line": "one time. one time.",
+      "heard": "Damn cooked.  Sending it.",
+      "ratio": 0.205,
+      "match": false
+    },
+    {
+      "id": "L17",
+      "line": "one thousand seven hundred fifty on plinko. here we go.",
+      "heard": "750  On!  Plinko!  Here we go.  No good, next.  Size check.",
+      "ratio": 0.684,
+      "match": true
+    },
+    {
+      "id": "L24",
+      "line": "nah. that is rough.",
+      "heard": "Yes, yes.  There it is.  6000",
+      "ratio": 0.408,
+      "match": false
+    },
+    {
+      "id": "L31",
+      "line": "two thousand three hundred seventy back. next.",
+      "heard": "300  70  Back!  Next!  No good, next.  1000",
+      "ratio": 0.614,
+      "match": true
+    },
+    {
+      "id": "L38",
+      "line": "going in. one thousand. watch this.",
+      "heard": "1000  Watch this.  1500  50  Back!",
+      "ratio": 0.5,
+      "match": false
+    },
+    {
+      "id": "L45",
+      "line": "size up. one thousand seven hundred fifty.",
+      "heard": "1000  750  Dead!  Sending in.  4000",
+      "ratio": 0.627,
+      "match": true
+    },
+    {
+      "id": "L52",
+      "line": "paid. keep going.",
+      "heard": "1000  200  50",
+      "ratio": 0.267,
+      "match": false
+    },
+    {
+      "id": "L59",
+      "line": "going in. two thousand two hundred fifty. watch this.",
+      "heard": "2000  200  50  Watch this.  Small one.  2000  400",
+      "ratio": 0.646,
+      "match": true
+    },
+    {
+      "id": "L66",
+      "line": "small one. one thousand seven hundred eighty back. run it.",
+      "heard": "1000  700  80  Back!  Run it.  Gone we go again.  2000  200",
+      "ratio": 0.634,
+      "match": true
+    },
+    {
+      "id": "L73",
+      "line": "size check. one thousand seven hundred fifty. send it.",
+      "heard": "1000  750  Send it.  1000  900  30",
+      "ratio": 0.645,
+      "match": true
+    },
+    {
+      "id": "L80",
+      "line": "cooked. move on.",
+      "heard": "Size check.  1000",
+      "ratio": 0.27,
+      "match": false
+    }
+  ]
+}

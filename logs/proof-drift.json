@@ -1,0 +1,731 @@
+{
+  "matchedLines": 85,
+  "journalLines": 87,
+  "anchors": [
+    {
+      "targetSec": 60.0,
+      "line": {
+        "id": "L22",
+        "text": "going in. two thousand two hundred fifty. watch this.",
+        "journalOff": 59.0,
+        "heardOff": 56.54,
+        "driftSec": -2.456,
+        "ratio": 0.795
+      }
+    },
+    {
+      "targetSec": 180.0,
+      "line": {
+        "id": "L53",
+        "text": "one thousand two hundred fifty on dice. here we go.",
+        "journalOff": 180.21,
+        "heardOff": 177.82,
+        "driftSec": -2.39,
+        "ratio": 0.759
+      }
+    },
+    {
+      "targetSec": 300.0,
+      "line": {
+        "id": "L83",
+        "text": "nothing. next.",
+        "journalOff": 302.11,
+        "heardOff": 299.78,
+        "driftSec": -2.334,
+        "ratio": 1.0
+      }
+    }
+  ],
+  "fit": {
+    "slopeSecPerSec": -0.00019,
+    "slopePct": -0.02,
+    "interceptSec": -2.966,
+    "fittedDrift": {
+      "60": -2.978,
+      "180": -3.0,
+      "300": -3.023
+    }
+  },
+  "matches": [
+    {
+      "id": "L6",
+      "text": "going in. one thousand. watch this.",
+      "journalOff": 10.5,
+      "heardOff": 8.0,
+      "driftSec": -2.501,
+      "ratio": 1.0
+    },
+    {
+      "id": "L7",
+      "text": "paid. keep going.",
+      "journalOff": 13.82,
+      "heardOff": 6.62,
+      "driftSec": -7.196,
+      "ratio": 1.0
+    },
+    {
+      "id": "L8",
+      "text": "size check. one thousand five hundred. send it.",
+      "journalOff": 15.22,
+      "heardOff": 12.7,
+      "driftSec": -2.525,
+      "ratio": 1.0
+    },
+    {
+      "id": "L9",
+      "text": "gone. we go again.",
+      "journalOff": 19.03,
+      "heardOff": 16.58,
+      "driftSec": -2.449,
+      "ratio": 1.0
+    },
+    {
+      "id": "L10",
+      "text": "one time. one time.",
+      "journalOff": 20.63,
+      "heardOff": 18.14,
+      "driftSec": -2.486,
+      "ratio": 1.0
+    },
+    {
+      "id": "L11",
+      "text": "damn. cooked.",
+      "journalOff": 22.22,
+      "heardOff": 19.7,
+      "driftSec": -2.521,
+      "ratio": 1.0
+    },
+    {
+      "id": "L12",
+      "text": "sending it. four thousand seven hundred fifty. all of it matters now.",
+      "journalOff": 24.52,
+      "heardOff": 23.0,
+      "driftSec": -1.523,
+      "ratio": 0.909
+    },
+    {
+      "id": "L13",
+      "text": "cooked. properly cooked.",
+      "journalOff": 29.82,
+      "heardOff": 27.34,
+      "driftSec": -2.484,
+      "ratio": 1.0
+    },
+    {
+      "id": "L14",
+      "text": "we take it. one thousand six hundred fifty back.",
+      "journalOff": 31.52,
+      "heardOff": 29.0,
+      "driftSec": -2.519,
+      "ratio": 0.864
+    },
+    {
+      "id": "L15",
+      "text": "pls pls pls.",
+      "journalOff": 36.51,
+      "heardOff": 34.08,
+      "driftSec": -2.427,
+      "ratio": 0.71
+    },
+    {
+      "id": "L16",
+      "text": "one thousand one hundred back. next.",
+      "journalOff": 37.91,
+      "heardOff": 35.5,
+      "driftSec": -2.414,
+      "ratio": 0.921
+    },
+    {
+      "id": "L17",
+      "text": "one thousand seven hundred fifty on plinko. here we go.",
+      "journalOff": 41.81,
+      "heardOff": 39.42,
+      "driftSec": -2.393,
+      "ratio": 0.795
+    },
+    {
+      "id": "L18",
+      "text": "no good. next.",
+      "journalOff": 47.32,
+      "heardOff": 44.88,
+      "driftSec": -2.441,
+      "ratio": 1.0
+    },
+    {
+      "id": "L19",
+      "text": "size check. two thousand two hundred fifty. send it.",
+      "journalOff": 49.91,
+      "heardOff": 47.44,
+      "driftSec": -2.472,
+      "ratio": 0.833
+    },
+    {
+      "id": "L20",
+      "text": "dead.",
+      "journalOff": 55.03,
+      "heardOff": 52.58,
+      "driftSec": -2.448,
+      "ratio": 1.0
+    },
+    {
+      "id": "L21",
+      "text": "one away. ONE away. so close.",
+      "journalOff": 55.91,
+      "heardOff": 53.5,
+      "driftSec": -2.405,
+      "ratio": 1.0
+    },
+    {
+      "id": "L22",
+      "text": "going in. two thousand two hundred fifty. watch this.",
+      "journalOff": 59.0,
+      "heardOff": 56.54,
+      "driftSec": -2.456,
+      "ratio": 0.795
+    },
+    {
+      "id": "L23",
+      "text": "four thousand one hundred sixty back. next.",
+      "journalOff": 64.02,
+      "heardOff": 61.7,
+      "driftSec": -2.318,
+      "ratio": 0.935
+    },
+    {
+      "id": "L24",
+      "text": "nah. that is rough.",
+      "journalOff": 68.91,
+      "heardOff": 66.58,
+      "driftSec": -2.33,
+      "ratio": 0.882
+    },
+    {
+      "id": "L25",
+      "text": "yes. YES. there it is. six thousand six hundred eighty back. eight point nine x. we take those.",
+      "journalOff": 70.5,
+      "heardOff": 69.42,
+      "driftSec": -1.079,
+      "ratio": 0.576
+    },
+    {
+      "id": "L26",
+      "text": "dead.",
+      "journalOff": 79.32,
+      "heardOff": 76.92,
+      "driftSec": -2.398,
+      "ratio": 1.0
+    },
+    {
+      "id": "L27",
+      "text": "small one. one thousand six hundred fifty back. run it.",
+      "journalOff": 80.12,
+      "heardOff": 77.78,
+      "driftSec": -2.345,
+      "ratio": 0.791
+    },
+    {
+      "id": "L28",
+      "text": "one thousand six hundred fifty back. what is next.",
+      "journalOff": 86.0,
+      "heardOff": 78.96,
+      "driftSec": -7.042,
+      "ratio": 0.769
+    },
+    {
+      "id": "L29",
+      "text": "dead.",
+      "journalOff": 91.12,
+      "heardOff": 76.92,
+      "driftSec": -14.196,
+      "ratio": 1.0
+    },
+    {
+      "id": "L30",
+      "text": "rotating. dice time.",
+      "journalOff": 93.81,
+      "heardOff": 91.5,
+      "driftSec": -2.308,
+      "ratio": 1.0
+    },
+    {
+      "id": "L31",
+      "text": "two thousand three hundred seventy back. next.",
+      "journalOff": 95.5,
+      "heardOff": 93.16,
+      "driftSec": -2.339,
+      "ratio": 0.872
+    },
+    {
+      "id": "L32",
+      "text": "no good. next.",
+      "journalOff": 100.41,
+      "heardOff": 98.12,
+      "driftSec": -2.285,
+      "ratio": 1.0
+    },
+    {
+      "id": "L33",
+      "text": "one thousand two hundred fifty on dice. here we go.",
+      "journalOff": 102.81,
+      "heardOff": 100.54,
+      "driftSec": -2.273,
+      "ratio": 0.759
+    },
+    {
+      "id": "L36",
+      "text": "nothing. next.",
+      "journalOff": 134.5,
+      "heardOff": 132.14,
+      "driftSec": -2.359,
+      "ratio": 1.0
+    },
+    {
+      "id": "L37",
+      "text": "no good. next.",
+      "journalOff": 135.92,
+      "heardOff": 133.58,
+      "driftSec": -2.336,
+      "ratio": 1.0
+    },
+    {
+      "id": "L38",
+      "text": "going in. one thousand. watch this.",
+      "journalOff": 137.83,
+      "heardOff": 135.5,
+      "driftSec": -2.331,
+      "ratio": 1.0
+    },
+    {
+      "id": "L39",
+      "text": "one thousand five hundred fifty back. next.",
+      "journalOff": 141.11,
+      "heardOff": 138.8,
+      "driftSec": -2.311,
+      "ratio": 0.935
+    },
+    {
+      "id": "L40",
+      "text": "stake back. the slot shrugs.",
+      "journalOff": 145.29,
+      "heardOff": 142.9,
+      "driftSec": -2.391,
+      "ratio": 1.0
+    },
+    {
+      "id": "L41",
+      "text": "in with one thousand five hundred. let this be it.",
+      "journalOff": 147.6,
+      "heardOff": 145.2,
+      "driftSec": -2.402,
+      "ratio": 1.0
+    },
+    {
+      "id": "L42",
+      "text": "pair. stake back. no harm.",
+      "journalOff": 151.41,
+      "heardOff": 149.1,
+      "driftSec": -2.311,
+      "ratio": 0.913
+    },
+    {
+      "id": "L43",
+      "text": "do something. wake up.",
+      "journalOff": 153.5,
+      "heardOff": 151.1,
+      "driftSec": -2.398,
+      "ratio": 1.0
+    },
+    {
+      "id": "L44",
+      "text": "pair on the reels. money back.",
+      "journalOff": 154.8,
+      "heardOff": 152.48,
+      "driftSec": -2.318,
+      "ratio": 0.929
+    },
+    {
+      "id": "L45",
+      "text": "size up. one thousand seven hundred fifty.",
+      "journalOff": 157.22,
+      "heardOff": 154.84,
+      "driftSec": -2.38,
+      "ratio": 1.0
+    },
+    {
+      "id": "L46",
+      "text": "dead.",
+      "journalOff": 161.01,
+      "heardOff": 158.68,
+      "driftSec": -2.329,
+      "ratio": 1.0
+    },
+    {
+      "id": "L47",
+      "text": "sending it. four thousand five hundred. all of it matters now.",
+      "journalOff": 161.92,
+      "heardOff": 160.54,
+      "driftSec": -1.383,
+      "ratio": 0.897
+    },
+    {
+      "id": "L48",
+      "text": "pair. stake back. no harm.",
+      "journalOff": 166.91,
+      "heardOff": 149.1,
+      "driftSec": -17.809,
+      "ratio": 0.913
+    },
+    {
+      "id": "L49",
+      "text": "damn. cooked.",
+      "journalOff": 169.0,
+      "heardOff": 166.64,
+      "driftSec": -2.357,
+      "ratio": 1.0
+    },
+    {
+      "id": "L50",
+      "text": "in with two thousand two hundred fifty. let this be it.",
+      "journalOff": 171.22,
+      "heardOff": 168.84,
+      "driftSec": -2.378,
+      "ratio": 0.753
+    },
+    {
+      "id": "L51",
+      "text": "nothing is landing. nothing.",
+      "journalOff": 176.41,
+      "heardOff": 174.08,
+      "driftSec": -2.328,
+      "ratio": 1.0
+    },
+    {
+      "id": "L52",
+      "text": "paid. keep going.",
+      "journalOff": 178.7,
+      "heardOff": 176.32,
+      "driftSec": -2.378,
+      "ratio": 1.0
+    },
+    {
+      "id": "L53",
+      "text": "one thousand two hundred fifty on dice. here we go.",
+      "journalOff": 180.21,
+      "heardOff": 177.82,
+      "driftSec": -2.39,
+      "ratio": 0.759
+    },
+    {
+      "id": "L54",
+      "text": "small one. eight thousand ten back. run it.",
+      "journalOff": 185.9,
+      "heardOff": 183.48,
+      "driftSec": -2.422,
+      "ratio": 0.706
+    },
+    {
+      "id": "L55",
+      "text": "please. just land.",
+      "journalOff": 190.91,
+      "heardOff": 188.48,
+      "driftSec": -2.426,
+      "ratio": 1.0
+    },
+    {
+      "id": "L56",
+      "text": "cooked. move on.",
+      "journalOff": 192.32,
+      "heardOff": 189.92,
+      "driftSec": -2.402,
+      "ratio": 1.0
+    },
+    {
+      "id": "L57",
+      "text": "sending it. four thousand five hundred. all of it matters now.",
+      "journalOff": 194.52,
+      "heardOff": 193.02,
+      "driftSec": -1.496,
+      "ratio": 0.897
+    },
+    {
+      "id": "L58",
+      "text": "no good. next.",
+      "journalOff": 199.4,
+      "heardOff": 197.02,
+      "driftSec": -2.381,
+      "ratio": 1.0
+    },
+    {
+      "id": "L59",
+      "text": "going in. two thousand two hundred fifty. watch this.",
+      "journalOff": 200.91,
+      "heardOff": 198.58,
+      "driftSec": -2.328,
+      "ratio": 0.795
+    },
+    {
+      "id": "L60",
+      "text": "small one. two thousand four hundred eighty back. run it.",
+      "journalOff": 206.09,
+      "heardOff": 203.62,
+      "driftSec": -2.472,
+      "ratio": 0.787
+    },
+    {
+      "id": "L61",
+      "text": "nah. that is rough.",
+      "journalOff": 212.02,
+      "heardOff": 209.68,
+      "driftSec": -2.344,
+      "ratio": 0.882
+    },
+    {
+      "id": "L62",
+      "text": "over to dice. new game.",
+      "journalOff": 215.31,
+      "heardOff": 212.98,
+      "driftSec": -2.33,
+      "ratio": 1.0
+    },
+    {
+      "id": "L63",
+      "text": "told you. told you. two thousand three hundred ninety back. two point four x. we take those.",
+      "journalOff": 217.29,
+      "heardOff": 215.68,
+      "driftSec": -1.611,
+      "ratio": 0.574
+    },
+    {
+      "id": "L64",
+      "text": "small one. two thousand eight hundred fifty back. run it.",
+      "journalOff": 226.62,
+      "heardOff": 224.18,
+      "driftSec": -2.436,
+      "ratio": 0.875
+    },
+    {
+      "id": "L65",
+      "text": "two thousand forty back. next.",
+      "journalOff": 232.41,
+      "heardOff": 229.98,
+      "driftSec": -2.425,
+      "ratio": 0.902
+    },
+    {
+      "id": "L66",
+      "text": "small one. one thousand seven hundred eighty back. run it.",
+      "journalOff": 236.0,
+      "heardOff": 233.58,
+      "driftSec": -2.415,
+      "ratio": 0.791
+    },
+    {
+      "id": "L67",
+      "text": "gone. we go again.",
+      "journalOff": 242.0,
+      "heardOff": 239.88,
+      "driftSec": -2.121,
+      "ratio": 1.0
+    },
+    {
+      "id": "L68",
+      "text": "two thousand two hundred fifty on plinko. here we go.",
+      "journalOff": 243.59,
+      "heardOff": 241.28,
+      "driftSec": -2.315,
+      "ratio": 0.741
+    },
+    {
+      "id": "L69",
+      "text": "cooked. move on.",
+      "journalOff": 249.43,
+      "heardOff": 247.18,
+      "driftSec": -2.246,
+      "ratio": 1.0
+    },
+    {
+      "id": "L70",
+      "text": "plinko is ice cold. ice cold.",
+      "journalOff": 250.7,
+      "heardOff": 248.48,
+      "driftSec": -2.22,
+      "ratio": 0.963
+    },
+    {
+      "id": "L71",
+      "text": "going in. one thousand. watch this.",
+      "journalOff": 253.72,
+      "heardOff": 251.48,
+      "driftSec": -2.245,
+      "ratio": 1.0
+    },
+    {
+      "id": "L72",
+      "text": "cooked. properly cooked.",
+      "journalOff": 257.09,
+      "heardOff": 254.88,
+      "driftSec": -2.213,
+      "ratio": 1.0
+    },
+    {
+      "id": "L73",
+      "text": "size check. one thousand seven hundred fifty. send it.",
+      "journalOff": 258.81,
+      "heardOff": 256.48,
+      "driftSec": -2.332,
+      "ratio": 0.915
+    },
+    {
+      "id": "L74",
+      "text": "one thousand nine hundred thirty back. what is next.",
+      "journalOff": 263.74,
+      "heardOff": 261.48,
+      "driftSec": -2.256,
+      "ratio": 0.78
+    },
+    {
+      "id": "L75",
+      "text": "two thousand five hundred eighty back. off one thousand. that is a two point six x. massive.",
+      "journalOff": 268.91,
+      "heardOff": 266.58,
+      "driftSec": -2.332,
+      "ratio": 0.592
+    },
+    {
+      "id": "L76",
+      "text": "nothing. next.",
+      "journalOff": 278.22,
+      "heardOff": 275.88,
+      "driftSec": -2.337,
+      "ratio": 1.0
+    },
+    {
+      "id": "L77",
+      "text": "cooked. properly cooked.",
+      "journalOff": 279.6,
+      "heardOff": 254.88,
+      "driftSec": -24.717,
+      "ratio": 1.0
+    },
+    {
+      "id": "L78",
+      "text": "what are we putting on this one. two thousand. two thousand riding.",
+      "journalOff": 282.02,
+      "heardOff": 279.68,
+      "driftSec": -2.337,
+      "ratio": 0.942
+    },
+    {
+      "id": "L79",
+      "text": "no good. next.",
+      "journalOff": 287.2,
+      "heardOff": 284.88,
+      "driftSec": -2.322,
+      "ratio": 1.0
+    },
+    {
+      "id": "L80",
+      "text": "cooked. move on.",
+      "journalOff": 288.8,
+      "heardOff": 286.38,
+      "driftSec": -2.415,
+      "ratio": 1.0
+    },
+    {
+      "id": "L81",
+      "text": "size check. one thousand two hundred fifty. send it.",
+      "journalOff": 291.72,
+      "heardOff": 289.38,
+      "driftSec": -2.341,
+      "ratio": 0.833
+    },
+    {
+      "id": "L82",
+      "text": "one thousand three hundred eighty back. what is next.",
+      "journalOff": 296.93,
+      "heardOff": 294.68,
+      "driftSec": -2.249,
+      "ratio": 0.786
+    },
+    {
+      "id": "L83",
+      "text": "nothing. next.",
+      "journalOff": 302.11,
+      "heardOff": 299.78,
+      "driftSec": -2.334,
+      "ratio": 1.0
+    },
+    {
+      "id": "L84",
+      "text": "just this time. just this time.",
+      "journalOff": 303.59,
+      "heardOff": 301.18,
+      "driftSec": -2.412,
+      "ratio": 1.0
+    },
+    {
+      "id": "L85",
+      "text": "dead.",
+      "journalOff": 305.51,
+      "heardOff": 303.18,
+      "driftSec": -2.334,
+      "ratio": 1.0
+    },
+    {
+      "id": "L86",
+      "text": "size up. seven hundred fifty.",
+      "journalOff": 307.81,
+      "heardOff": 305.48,
+      "driftSec": -2.332,
+      "ratio": 1.0
+    },
+    {
+      "id": "L87",
+      "text": "we take it. eight hundred thirty back.",
+      "journalOff": 310.32,
+      "heardOff": 308.08,
+      "driftSec": -2.245,
+      "ratio": 0.925
+    },
+    {
+      "id": "L88",
+      "text": "hold. hold.",
+      "journalOff": 314.02,
+      "heardOff": 311.78,
+      "driftSec": -2.239,
+      "ratio": 1.0
+    },
+    {
+      "id": "L89",
+      "text": "pair on the reels. money back.",
+      "journalOff": 315.2,
+      "heardOff": 312.88,
+      "driftSec": -2.318,
+      "ratio": 0.929
+    },
+    {
+      "id": "L90",
+      "text": "big one. four thousand riding. feel it.",
+      "journalOff": 318.02,
+      "heardOff": 315.78,
+      "driftSec": -2.242,
+      "ratio": 0.875
+    },
+    {
+      "id": "L91",
+      "text": "no good. next.",
+      "journalOff": 322.02,
+      "heardOff": 319.78,
+      "driftSec": -2.24,
+      "ratio": 1.0
+    },
+    {
+      "id": "L92",
+      "text": "big one. three thousand seven hundred fifty riding. feel it.",
+      "journalOff": 323.5,
+      "heardOff": 321.28,
+      "driftSec": -2.216,
+      "ratio": 0.848
+    }
+  ]
+}

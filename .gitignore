@@ -1,0 +1,17 @@
+# Contest rule: entries are public — NEVER commit keys or tokens.
+# Stream keys, bot tokens and passwords do not belong in this repo at all;
+# the Kick stream key lives only in OBS on Oluwatoba's machine.
+config/stream.local.json
+*.key
+*.pem
+.env
+.env.*
+*stream-key*
+*token*
+logs/*.log
+logs/server.log
+!logs/.gitkeep
+node_modules/
+
+# Local TTS voice models (63MB Piper .onnx) — never commit
+voices-local/

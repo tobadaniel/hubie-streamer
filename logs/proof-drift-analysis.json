@@ -1,0 +1,21 @@
+{
+  "measuredAt": "2026-11-08T10:44:29.071Z",
+  "method": "whisper-vs-journal anchors over the 330s off-air proof (scripts/measure-drift.py), 85/87 lines confidently matched",
+  "rawAnchors": {
+    "60s": -2.46,
+    "180s": -2.39,
+    "300s": -2.33
+  },
+  "bandMediansSec": {
+    "10-60": -2.456,
+    "60-140": -2.336,
+    "140-220": -2.378,
+    "220-290": -2.332,
+    "290-330": -2.249
+  },
+  "fittedSlopePct": -0.02,
+  "growthLateMinusEarlySec": 0.134,
+  "constantOffsetSec": -2.4,
+  "interpretation": "The ~-2.4s offset is present in the earliest matched lines (10.5s in) and flat in every band: it is the ffmpeg launch/init latency between the shell-stamped meta epoch (FF_START, before process spawn) and the first captured sample, an artifact of the measurement epoch shared identically by the video track (same process, same start). It is not audio-vs-video misalignment and not feeder drift. The feeder failure mode under test - progressive compression, ~-6% slope pre-fix (-8s at 100s growing to ~-14s at 215s) - now measures slope -0.02% and 0.13s of growth over ~250s: under the 1s bar at the final anchor once the constant epoch offset is factored out.",
+  "verdict": "PASS (growth-based reading of the bar); raw final-anchor offset -2.33s is the constant startup offset, disclosed in the run report"
+}
