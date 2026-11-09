@@ -6,14 +6,20 @@ rewards host — plays **House originals in demo mode only**, commentates every 
 reads chat and answers viewers **by name**, moderates chat, and runs with **no human**
 once it is live. Demo play only: no real money, no logins, no deposits, ever.
 
-> **Status: v1.3. STREAM OFF — do not relaunch.** A judged run started
-> 2026-11-07 22:40:45 WAT was **cancelled by Oluwatoba at 22:49 WAT** after
-> ~9 minutes because the voice trailed the picture. The whole stack was
-> stopped and the channel confirmed offline; the run record
-> (`logs/tonight-run.json`) is marked ended-by-cancellation. **Nothing goes
-> live again until Oluwatoba personally says so** — everything in v1.3 is
-> local work. The stream channel is **Kick — t4tiger —
-> https://kick.com/t4tiger**.
+> **Status: JUDGED RUN COMPLETE — run 4, Sun 8 Nov 2026: 5h 46m 37s with no human.**
+> Streamed live on Kick — t4tiger — https://kick.com/t4tiger — from 15:18:35
+> to 21:05:38 WAT. Final counters: **5,795 lines spoken == 5,795 displayed,
+> 0 dropped**, zero encoder restarts and zero relay events all run. The run
+> ended when the host VM restarted 13 minutes before the planned 6-hour
+> stop; the stream stack itself never failed. Recording:
+> https://kick.com/t4tiger/videos/01a1bb86-dc20-7bce-8db5-ff9615d6e52d —
+> full record in `logs/tonight-run.json`.
+> Earlier attempts, briefly: run 1 (7 Nov, ~9 min) was cancelled by
+> Oluwatoba after the voice trailed the subtitles. Run 2 (8 Nov, ~13 min)
+> was ended by Oluwatoba for the same screen/voice mismatch; both drove
+> the coupled speech-director rebuild in v1.4. Run 3 (8 Nov) held perfect
+> sync for 44 minutes before the upstream stream connection closed; that
+> drove the supervised auto-reconnect transport layer in v1.6.
 
 > **v1.1.1 (2026-11-06):** big-amount demo scale, per Oluwatoba's direction — the demo balance now starts at **1,000,000 coins**, round stakes run **1,000–25,000**, and the auto-refill tops back up to 1,000,000 when the balance falls below 1,000. Multipliers, game maths and everything else from v1.1 are unchanged. *(Balance model superseded by v1.3 below.)*
 
