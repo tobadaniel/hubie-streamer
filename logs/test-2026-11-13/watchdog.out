@@ -1,0 +1,8 @@
+2026-11-13T15:17:30Z rtmp relay starting
+2026-11-13T15:17:30Z watchdog started (port 8377, pid 17414) — setup phase, stream not live yet
+2026-11-13T15:17:30Z scene server starting
+2026-11-13T17:51:44Z watchdog started (port 8377, pid 24680) — setup phase, stream not live yet
+2026-11-13T17:51:44Z rtmp relay starting
+2026-11-13T17:51:44Z scene server starting
+2026-11-13T23:00:17Z watchdog stopped by signal — run ended
+2026-11-13T23:00:17Z new longest no-human run: 18513s

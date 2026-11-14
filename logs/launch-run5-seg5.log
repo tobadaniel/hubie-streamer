@@ -1,0 +1,10 @@
+launch-run: starting watchdog (scene server + relay)
+launch-run: starting voice service :8379
+launch-run: starting chat service :8381
+launch-run: port 8377 up
+launch-run: port 8379 up
+launch-run: port 8381 up
+launch-run: relay port 1936 up (TCP)
+launch-run: starting stream.sh (live to Kick via relay)
+launch-run: stream.sh launched (pgid recorded in /tmp/judged.pgid)
+launch-run: done

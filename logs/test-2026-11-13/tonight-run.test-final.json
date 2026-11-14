@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "attempt": "test-2026-11-13",
+  "kind": "soak test ahead of run 5 (NOT a judged run)",
+  "channel": "t4tiger",
+  "channel_url": "https://kick.com/t4tiger",
+  "stream_title": "Hubie Live - House Originals Demo, Your Favourite AI Rewards Host 🐻",
+  "started_at": "2026-11-13T17:51:44.727Z",
+  "planned_stop": "2026-11-14T00:00:00+01:00",
+  "planned_stop_reason": "hard stop one hour before run 5 launch (01:00 WAT), user direction 2026-11-13 16:15 WAT",
+  "stack": "watchdog (scene :8377 + relay :1936, HUBIE_WATCHDOG_DIR=logs/test-2026-11-13) + voice-service (:8379, library on, coupled) + chat-service (:8381, Kick bridge) + stream.sh (Xvfb :98 + Chrome kiosk + supervised ffmpeg x11grab/FIFO -> RTMPS via relay, transport log logs/transport.test-2026-11-13.log), all setsid-detached",
+  "note": "Run 4 record preserved at logs/tonight-run.attempt4.json. Run 5 launch overwrites this file with the attempt-5 record.",
+  "previous_segment": {
+    "kick_livestream_id": 137610496,
+    "started_wat": "2026-11-13T16:19:32+01:00",
+    "duration_sec": 156,
+    "end_reason": "environment restart at ~16:22 WAT killed the entire stack (system boot 16:21, /tmp cleared, all service logs stop 16:21:59). Stack itself faultless: single ffmpeg start, zero encoder restarts, zero relay errors, dress counters perfect to the end."
+  },
+  "relaunched_wat": "2026-11-13T18:52:11+01:00",
+  "kick_livestream_id": 137635649,
+  "ended_at_utc": "2026-11-13T23:02:00Z",
+  "ended_at_wat": "2026-11-14T00:02:00+01:00",
+  "end_reason": "scheduled stop at 6h (user decision 2026-11-08 18:39 WAT), executed by scripts/end-run.sh",
+  "signoff": {
+    "id": "SIGNOFF-1",
+    "text": "gamble responsibly. and if you're looking for where to gamble, hubie on housebets is always ready to host you.",
+    "source": "library clip (clone voice) via POST /say — the speech director channel",
+    "delivered": true,
+    "speech_started_ts": 1794610804579,
+    "speech_ended_ts": 1794610811912
+  },
+  "final_counters": {
+    "spoken": 5311,
+    "displayed": 5310,
+    "dropped": 0,
+    "dropped_stale": 0,
+    "dropped_overflow": 0,
+    "scene_service_dropped": 0,
+    "clips_played": 5310,
+    "clip_fallbacks": 1,
+    "max_start_lag_sec": 5.7
+  },
+  "transport_events": {
+    "log_lines": 2,
+    "ffmpeg_starts": 1,
+    "encoder_restarts": 0
+  },
+  "final_balance": null,
+  "reload_count": null,
+  "longest_run_evidence": {
+    "file": "logs/longest-run.txt",
+    "seconds": 3102,
+    "hours": 0.86,
+    "updated": "2026-11-08T11:36:24Z",
+    "uptime_log": "logs/uptime.log"
+  },
+  "kick_offline_verified": true,
+  "ports_free_after_stop": true
+}

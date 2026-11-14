@@ -1,0 +1,13 @@
+[end-run] freezing chrome (SIGSTOP): 24781 24798 24800 24803 24804 24892 24893 24917 24972 24984 25072 25083 
+[end-run] waiting for the voice queue to drain…
+[end-run] queue drained
+[end-run] sign-off posted: {"ok":true,"id":"SIGNOFF-1"}
+[end-run] waiting for speech-ended(SIGNOFF-1)…
+[end-run] sign-off spoken (started ts=1794610804579, ended ts=1794610811912); 2s grace
+[end-run] final counters: spoken=5311 displayed=5310 dropped=0 clipsPlayed=5310 clipFallbacks=1 transportRestarts=0
+[end-run] SIGTERM encoder supervisor: 24821 
+[end-run] SIGTERM watchdog: 24680 24692 
+[end-run] ports free: true
+[end-run] kick offline verified: true (last API state: is_live=false id=null)
+[end-run] snapshot written to logs/tonight-run.json
+[end-run] summary: run completed; sign-off delivered=true; spoken=5311 displayed=5310 dropped=0; encoder restarts=0; kick offline=true

@@ -6,14 +6,26 @@ rewards host — plays **House originals in demo mode only**, commentates every 
 reads chat and answers viewers **by name**, moderates chat, and runs with **no human**
 once it is live. Demo play only: no real money, no logins, no deposits, ever.
 
-> **Status: JUDGED RUN COMPLETE — run 4, Sun 8 Nov 2026: 5h 46m 37s with no human.**
-> Streamed live on Kick — t4tiger — https://kick.com/t4tiger — from 15:18:35
-> to 21:05:38 WAT. Final counters: **5,795 lines spoken == 5,795 displayed,
-> 0 dropped**, zero encoder restarts and zero relay events all run. The run
-> ended when the host VM restarted 13 minutes before the planned 6-hour
-> stop; the stream stack itself never failed. Recording:
-> https://kick.com/t4tiger/videos/01a1bb86-dc20-7bce-8db5-ff9615d6e52d —
-> full record in `logs/tonight-run.json`.
+> **Status: ENTRY SUBMITTED — Sat 14 Nov 2026, before the 18:00 UTC close.**
+> Submitted recording: the soak-test run of Fri 13 Nov 2026 — **5h 05m 22s
+> with no human** by Kick's VOD duration (local counter: 5h 08m 33s
+> unbroken). Streamed live on Kick — t4tiger — https://kick.com/t4tiger —
+> from 18:52 to 00:02 WAT. Final counters: **5,311 lines spoken / 5,310
+> displayed, 0 dropped**, closing sign-off delivered. Recording:
+> https://kick.com/t4tiger/videos/01a1d609-c558-74d1-b6e9-8f0d1f605066
+> (Kick keeps it until 20 Nov 2026; a local master copy is held by the
+> author). Full record: `logs/test-2026-11-13/tonight-run.test-final.json`.
+> Run 5 (14 Nov, the planned judged run) totalled ~8h 28m across 7
+> segments, longest 1h 53m 55s: repeated host VM replacements broke every
+> segment before the 3-hour minimum, so it produced no qualifying
+> recording — full record in `logs/tonight-run.json`.
+> Run 4 (Sun 8 Nov 2026): **5h 46m 37s with no human**, 5,795 lines spoken
+> == 5,795 displayed, 0 dropped, zero encoder restarts and zero relay
+> events all run; it ended when the host VM restarted 13 minutes before
+> the planned 6-hour stop — the stream stack itself never failed.
+> Recording: https://kick.com/t4tiger/videos/01a1bb86-dc20-7bce-8db5-ff9615d6e52d
+> (Kick kept it until 15 Nov 2026) — full record in
+> `logs/tonight-run.attempt4.json`.
 > Earlier attempts, briefly: run 1 (7 Nov, ~9 min) was cancelled by
 > Oluwatoba after the voice trailed the subtitles. Run 2 (8 Nov, ~13 min)
 > was ended by Oluwatoba for the same screen/voice mismatch; both drove

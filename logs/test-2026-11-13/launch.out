@@ -1,0 +1,8 @@
+launch-test: test run record written
+launch-test: starting watchdog (serve + relay, test evidence dir)
+launch-test: starting voice service :8379
+launch-test: starting chat service :8381
+launch-test: port 8377 up
+launch-test: port 8379 up
+launch-test: port 8381 up
+launch-test: port 1936 never came up
